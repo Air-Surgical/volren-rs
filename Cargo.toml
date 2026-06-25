@@ -19,7 +19,7 @@ homepage = "https://github.com/knopkem/volren-rs"
 volren-core = { path = "crates/volren-core", version = "0.3.2" }
 
 # Math
-glam = { version = "0.29", features = ["bytemuck", "debug-glam-assert"] }
+glam = { version = "0.30", features = ["bytemuck", "debug-glam-assert"] }
 
 # GPU buffer safety
 bytemuck = { version = "1", features = ["derive"] }
